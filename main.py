@@ -9,15 +9,6 @@ import numpy as np
 from random import randint
 
 
-# with jsonlines.open('data.json') as f:
-#     for line in f.iter():
-#       data = line
-#       #print(data['LogDateUTC'])
-
-# item_dict = json.loads(data['LogDateUTC'])
-# print("######", len(item_dict['result'][0]['run']))
-
-
 with open('data.json', encoding='utf-8-sig') as f:
     lines = f.read().splitlines()
 
